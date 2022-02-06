@@ -1,7 +1,6 @@
 asgiref==3.4.1
 dj-database-url==0.5.0
 Django==3.2.9
-django-torina-blog @ https://github.com/naritotakizawa/django-torina-blog/archive/master.tar.gz
 gunicorn==20.1.0
 Pillow==8.4.0
 sqlparse==0.4.2
@@ -11,7 +10,6 @@ whitenoise==5.3.0
 certifi==2020.6.20
 chardet==3.0.4
 dj-static==0.0.6
-asgiref==3.2.10
 idna==2.8
 psycopg2-binary==2.8.2
 requests==2.21.0
