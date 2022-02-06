@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 SITE_ID = 1 # add
 MIDDLEWARE = [
 'django.middleware.security.SecurityMiddleware',
-'whitenoise.middleware.WhiteNoiseMiddleware'
+'whitenoise.middleware.WhiteNoiseMiddleware',
 'django.contrib.sessions.middleware.SessionMiddleware',
 'django.middleware.common.CommonMiddleware',
 'django.middleware.csrf.CsrfViewMiddleware',
@@ -141,7 +141,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEBUG = False
 
 try:
-    from .local_settings import *  
+    from .local_settings import *
 except ImportError:
     pass
 
